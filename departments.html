@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>University Management System</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: lightgray;
+      background-image: url(https://www.deccanherald.com/sites/dh/files/article_images/2018/10/31/vtu-1540996461.jpg);
+      background-size: cover;
+      background-position: center center;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px;
+      background-color: #ffffff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    
+    .button-container {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    
+    .button-container a {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 10px;
+      background-color: #4CAF50;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+    
+    .button-container a:hover {
+      background-color: #45a049;
+    }
+    
+    .departments-container {
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 4px;
+    }
+    
+    .department {
+      padding: 10px;
+      background-color: #ffffff;
+      border: 1px solid #dddddd;
+      margin-bottom: 10px;
+      border-radius: 4px;
+    }
+    
+    .department h3 {
+      margin-top: 0;
+    }
+    
+    .department p {
+      margin: 0;
+    }
+    h3:hover{
+      color:blue;
+    }
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <a href="home.html">
+      <img style="width:30px" src="images/home.png">
+    </a>
+    <h1>Welcome to Visvesvaraya Technological University</h1>
+    <div class="button-container">
+      <a style="background-color: red; text-decoration:underline" href="departments.html">Departments</a>
+      <a href="students.html">Students</a>
+      <a href="courses.html">Courses</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="images.html">Images</a>
+    </div>
+    <div class="departments-container" style="background-color: Lightgrey;">
+      <a style="text-decoration:none ;color:black ;" href="cscourses.html" title="this takes you to CS courses">
+      <div class="department">
+        <h3>Department of Computer Science</h3>
+        <p>Description of the Computer Science department.</p>
+      </div>
+    </a>
+    <a style="text-decoration:none ;color:black ;" href="mathcourses.html" title="this takes you to Mathematics courses">
+      <div class="department">
+        <h3>Department of Mathematics</h3>
+        <p>Description of the Mathematics department.</p>
+      </div>
+    </a>
+    <a style="text-decoration:none ;color:black ;" href="physicscourses.html" title="this takes you to Physics courses">
+      <div class="department">
+        <h3>Department of Physics</h3>
+        <p>Description of the Physics department.</p>
+      </div>
+    </a>
+    </div>
+  </div>
+</body>
+</html>
